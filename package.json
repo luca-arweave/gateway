@@ -6,7 +6,7 @@
   "author": "Arweave <hello@arweave.org>",
   "license": "MIT",
   "scripts": {
-    "dev:test": "npm run dev:build && nyc mocha dist/test dist/test/**/*.js",
+    "dev:test": "npm run dev:build && NODE_ENV=development nyc mocha dist/test dist/test/**/*.js",
     "dev:codecov": "nyc report --reporter=text-lcov | codecov --pipe --token=cea7a229-8289-4a7c-9dc6-4fb694978cb2",
     "dev:lint": "eslint \"test/*.ts\" \"test/**/*.ts\" \"src/*.ts\" \"src/**/*.ts\" \"migrations/*.ts\" \"knexfile.ts\"",
     "dev:gql": "npx graphql-codegen --config codegen.yml",

@@ -13,7 +13,13 @@ import {startSync} from './database/sync.database';
 import {logsHelper, logsTask} from './utility/log.helper';
 import cron from 'node-cron';
 
-config();
+if (process.env.NODE_ENV === 'development') {
+  config({
+    path: '.env.dev',
+  });
+} else {
+  config();
+}
 
 export const app: Express = express();
 
