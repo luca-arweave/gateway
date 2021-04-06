@@ -4,11 +4,7 @@
 [![Build Status](https://travis-ci.org/ArweaveTeam/gateway.svg?branch=master)](https://travis-ci.org/ArweaveTeam/gateway)
 [![codecov](https://codecov.io/gh/ArweaveTeam/gateway/branch/master/graph/badge.svg)](https://codecov.io/gh/ArweaveTeam/gateway)
 
-<<<<<<< HEAD
 Review the [documentation](https://arweaveteam.github.io/gateway/#/) to learn more about setting up and deploying a Gateway.
-=======
-Review the [documentation](./docs/README.md) to learn more about setting up and deploying a Gateway.
->>>>>>> Update docs and lint
 
 ## Requirements
 
