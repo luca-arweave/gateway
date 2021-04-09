@@ -15,7 +15,7 @@ import cron from 'node-cron';
 
 if (process.env.NODE_ENV === 'development') {
   config({
-    path: '.env.dev',
+    path: __dirname + '/.env.dev',
   });
 } else {
   config();
